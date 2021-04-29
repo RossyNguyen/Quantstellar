@@ -3,7 +3,21 @@ QUANTSTELLAR
 
 Studies of Star, Galaxy and Quasar Systems Using QSVM.
 
-Project Structure
+We aim to demonstrate the quantum enhancement of QSVM for big data applications on a novel domain of astronomical objects classification using SDSS (Sloan Digital Sky Survey) dataset. We will benchmark our implementation against a classical SVM algorithm comparing time complexity, accuracy and robustness. 
+
+**Usecase**: 
+Astronomical alert systems often face a prominent challenge of exponential growth in data volume and algorithm complexity, making it harder to scale and implement complex classification algorithms. These challenges are not unique to Astronomy but other fields such as genome sequencing or high-frequency trading. Our project aims to address this challenge by leveraging quantum machine learning properties and optimizing QSVM for big data training and classification. We will validate our work on SDSS dataset.
+
+**Dataset decription:** 
+"The Sloan Digital Sky Survey has created the most detailed three-dimensional maps of the Universe ever made, with deep multi-color images of one third of the sky, and spectra for more than three million astronomical objects.The data consists of 10,000 observations of space taken by the SDSS. Every observation is described by 17 feature columns and 1 class column which identifies it to be either a star, galaxy or quasar." - SDSS
+
+**Relevant Researchs:**
+
+https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/machine_learning/01_qsvm_classification.ipynb //
+https://indico.in2p3.fr/event/22938/contributions/93156/attachments/63074/86666/Fink_Moller_MLIN2P3.pdf //
+https://www.kaggle.com/lucidlenn/sloan-digital-sky-survey //
+
+Project Structure Reference
 ------------
 
     ├── LICENSE
