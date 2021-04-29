@@ -1,9 +1,9 @@
 QUANTSTELLAR 
 ==============================
 
-Studies of Star, Galaxy and Quasar Systems Using QSVM
+Studies of Star, Galaxy and Quasar Systems Using QSVM.
 
-Project Organization
+Project Structure
 ------------
 
     ├── LICENSE
