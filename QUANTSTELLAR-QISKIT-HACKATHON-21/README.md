@@ -9,7 +9,11 @@ We aim to demonstrate the quantum enhancement of QSVM for big data applications 
 Studies of Star, Galaxy and Quasar Systems often result in vast quantities of high-dimensional data. Both big data analysis and feature mapping are computationally intensive and inefficient classically. These issues are not unique to astronomy but present in many fields. Using QSVM we can take advantage of the large dimensionality of quantum feature space to provide exponential improvements. 
 
 **Dataset decription:** 
-"The Sloan Digital Sky Survey has created the most detailed three-dimensional maps of the Universe ever made, with deep multi-color images of one third of the sky, and spectra for more than three million astronomical objects.The data consists of 10,000 observations of space taken by the SDSS. Every observation is described by 17 feature columns and 1 class column which identifies it to be either a star, galaxy or quasar." - SDSS
+In this project, our main dataset are from Data Release 16 (DR16) of the Sloan Digital Sky Survey (SDSS-IV), which contains SDSS observation through August 2018. The component of DR16 included in this research is catalog data inclduing parameters measured from images and spectra, such as magnitudes and redshifts.
+
+Main dataset: Skyserver_12_30_2019 4_49_58 PM.csv
+Reference link to the dataset: https://www.sdss.org/dr16 https://www.kaggle.com/muhakabartay/sloan-digital-sky-survey-dr16
+
 
 **Relevant Researchs:**
 
