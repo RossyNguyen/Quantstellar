@@ -3,10 +3,10 @@ QUANTSTELLAR
 
 Studies of Stars, Galaxies and Quasars Using QSVM.
 
-We aim to demonstrate the quantum enhancement of QSVM for big data applications on a novel domain of astronomical objects classification using SDSS (Sloan Digital Sky Survey) dataset. We will benchmark our implementation against a classical SVM algorithm comparing the twwo on the basis of time complexity, accuracy and robustness. 
+We aim to demonstrate the quantum enhancement of QSVM for big data applications on a novel domain of astronomical objects classification using SDSS (Sloan Digital Sky Survey) dataset. We will benchmark our implementation against a classical SVM algorithm comparing the two on the basis of time complexity, accuracy and robustness. 
 
 **Usecase**: 
-Studies of Star, Galaxy and Quasar Systems often result in copious amounts of high-dimensional data. Both big data analysis and feature mapping are computationally intensive and inefficient classically. These issues are not just unique to astronomy but present in many fields like particle physics, geosciences etc. Using QSVM we can take advantage of the large dimensionality of quantum feature space to provide exponential improvements. 
+Studies of Star, Galaxy and Quasar Systems often result in copious amounts of high-dimensional data. Both big data analysis and feature mapping are computationally intensive and clasically inefficient. These issues are not just unique to astronomy but present in many fields like particle physics, geosciences etc. Using QSVM we can take advantage of the large dimensionality of quantum feature space to provide exponential improvements. 
 
 **Dataset decription:** 
 In this project, our main dataset are from Data Release 16 (DR16) of the Sloan Digital Sky Survey (SDSS-IV), which contains SDSS observation through August 2018. The component of DR16 included in this research is catalog data inclduing parameters measured from images and spectra, such as magnitudes and redshifts.
@@ -33,12 +33,15 @@ Project Structure Reference
     │   ├── processed      <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
     │
+    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
     │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
     ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
     │                         the creator's initials, and a short `-` delimited description, e.g.
     │                         `1.0-jqp-initial-data-exploration`.
+    │
+    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
     ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
     │   └── figures        <- Generated graphics and figures to be used in reporting
@@ -47,6 +50,22 @@ Project Structure Reference
     │                         generated with `pip freeze > requirements.txt`
     │
     ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
+    ├── src                <- Source code for use in this project.
+    │   ├── __init__.py    <- Makes src a Python module
+    │   │
+    │   ├── data           <- Scripts to download or generate data
+    │   │   └── make_dataset.py
+    │   │
+    │   ├── features       <- Scripts to turn raw data into features for modeling
+    │   │   └── build_features.py
+    │   │
+    │   ├── models         <- Scripts to train models and then use trained models to make
+    │   │   │                 predictions
+    │   │   ├── predict_model.py
+    │   │   └── train_model.py
+    │   │
+    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
+    │       └── visualize.py
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 
