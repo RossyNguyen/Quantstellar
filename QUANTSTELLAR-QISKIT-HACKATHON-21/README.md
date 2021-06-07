@@ -1,12 +1,12 @@
 QUANTSTELLAR 
 ==============================
 
-Studies of Star, Galaxy and Quasar Systems Using QSVM.
+Studies of Stars, Galaxies and Quasars Using QSVM.
 
-We aim to demonstrate the quantum enhancement of QSVM for big data applications on a novel domain of astronomical objects classification using SDSS (Sloan Digital Sky Survey) dataset. We will benchmark our implementation against a classical SVM algorithm comparing time complexity, accuracy and robustness. 
+We aim to demonstrate the quantum enhancement of QSVM for big data applications on a novel domain of astronomical objects classification using SDSS (Sloan Digital Sky Survey) dataset. We will benchmark our implementation against a classical SVM algorithm comparing the twwo on the basis of time complexity, accuracy and robustness. 
 
 **Usecase**: 
-Studies of Star, Galaxy and Quasar Systems often result in vast quantities of high-dimensional data. Both big data analysis and feature mapping are computationally intensive and inefficient classically. These issues are not unique to astronomy but present in many fields. Using QSVM we can take advantage of the large dimensionality of quantum feature space to provide exponential improvements. 
+Studies of Star, Galaxy and Quasar Systems often result in copious amounts of high-dimensional data. Both big data analysis and feature mapping are computationally intensive and inefficient classically. These issues are not just unique to astronomy but present in many fields like particle physics, geosciences etc. Using QSVM we can take advantage of the large dimensionality of quantum feature space to provide exponential improvements. 
 
 **Dataset decription:** 
 In this project, our main dataset are from Data Release 16 (DR16) of the Sloan Digital Sky Survey (SDSS-IV), which contains SDSS observation through August 2018. The component of DR16 included in this research is catalog data inclduing parameters measured from images and spectra, such as magnitudes and redshifts.
